@@ -1,7 +1,7 @@
 ---
 title: 安全导航
 index: ture
-icon: laptop-code
+icon: compass
 category:
   - 使用指南
 ---

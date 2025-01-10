@@ -7,5 +7,6 @@ export default sidebar({
   "/perm/":"structure",
   "/intro":"structure",
   "/net/":"structure",
+  "/think/":"structure",
   "link": "structure",
 });

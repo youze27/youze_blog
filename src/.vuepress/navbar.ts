@@ -6,7 +6,8 @@ export default navbar([
   "/perm/",
   "/nav/",
   "/net/",
+  "/think/",
   "/intro",
-  "/link"
+  "/link",
 
 ]);
