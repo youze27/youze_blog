@@ -10,12 +10,13 @@ export default hopeTheme({
     name: "卷卷",
   },
 
-  logo: "/assets/logo.svg",
+  logo: "/assets/logo.png",
+  favicon: "/assets/favicon.ico",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
-
+  focus: true,
   // 导航栏
   navbar,
 
@@ -25,6 +26,7 @@ export default hopeTheme({
   // 页脚
   footer: "天行健，君子以自强不息。",
   displayFooter: true,
+  copyright : "Copyright © 2023-present Juan",
 
   // 博客相关
   blog: {
@@ -139,12 +141,13 @@ export default hopeTheme({
     // 在启用之前安装 sandpack-vue3
     // sandpack: true,
   },
-
+  fullscreen: true,
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
     search: true,
     slimsearch: true,
+    
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
@@ -164,61 +167,5 @@ export default hopeTheme({
       assets: "fontawesome-with-brands",
     },
 
-    // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cacheImage: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
   },
 });

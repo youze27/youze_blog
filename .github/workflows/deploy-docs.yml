@@ -48,5 +48,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.BLOG_TOKEN }}
         with:
           # 部署文档
-          branch: blog_page
+          branch: blog
           folder: src/.vuepress/dist
