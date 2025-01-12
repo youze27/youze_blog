@@ -150,9 +150,7 @@ export default hopeTheme({
       assets: "fontawesome-with-brands",
     },
 
-  },
-
-
+  }
 
  
 });

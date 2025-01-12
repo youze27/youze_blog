@@ -1,6 +1,6 @@
 ---
 title: 计网基础
-index: ture
+index: true
 icon: network-wired
-
 ---
+<Catalog />  
