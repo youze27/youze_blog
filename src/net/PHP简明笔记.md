@@ -47,7 +47,6 @@ tag:
 	//Hello world! . 
 	//float(15.5)
 
-  
 ```
 
 # 作用域

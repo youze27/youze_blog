@@ -1,5 +1,5 @@
 ---
-title: 安全导航
+title: 网安导航
 index: true
 icon: compass
 category:
