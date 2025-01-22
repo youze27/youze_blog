@@ -1,7 +1,6 @@
 ---
 title: Docker-Compose
 index: true
-icon: d
 order: 6
 isOriginal : true
 category:

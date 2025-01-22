@@ -1,7 +1,6 @@
 ---
 title: python基础题
 index: true
-icon: p
 order: 2
 isOriginal : true
 date: 2023-12-10

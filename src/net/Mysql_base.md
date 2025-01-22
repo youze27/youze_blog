@@ -1,7 +1,6 @@
 ---
 title: Mysql基础
 index: true
-icon: database
 order: 5
 isOriginal : true
 date: 2023-11-12
